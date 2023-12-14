@@ -7,4 +7,11 @@ public class Vehicle {
         this.year = year;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public int getYear() {
+        return year;
+    }
 }

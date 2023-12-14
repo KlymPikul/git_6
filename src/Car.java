@@ -5,4 +5,9 @@ public class Car extends Vehicle {
         super(brand, year);
         this.model = model;
     }
+
+    @Override
+    public String toString() {
+        return "Car: Brand=" + getBrand() + ", Model=" + model + ", Year=" + getYear();
+    }
 }
