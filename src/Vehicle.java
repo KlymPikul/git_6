@@ -15,11 +15,9 @@ public class Vehicle {
         return year;
     }
 
-    public void displayInfo() {
-        System.out.println("Vehicle Information: Brand=" + brand + ", Year=" + year);
-    }
 
-    public void displayInfo(String additionalInfo) {
-        System.out.println("Vehicle Information: Brand=" + brand + ", Year=" + year + ", " + additionalInfo);
+    public void displayInfo() {
+        String info = String.format("Brand: %s, Year: %d", brand, year);
+        System.out.println(info);
     }
 }
