@@ -10,4 +10,9 @@ public class Car extends Vehicle {
     public String toString() {
         return "Car: Brand=" + getBrand() + ", Model=" + model + ", Year=" + getYear();
     }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("Car Information: Brand=" + getBrand() + ", Model=" + model + ", Year=" + getYear());
+    }
 }
